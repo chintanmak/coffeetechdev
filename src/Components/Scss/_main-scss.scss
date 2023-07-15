@@ -32,8 +32,15 @@ $secondary_clr: #feffff;
     flex-direction: column;
 }
 
+.grid{
+    display: grid;
+}
+
 .gap2rem{
     gap: 2rem;
+}
+.gap4rem{
+    gap: 4rem;
 }
 
 .btn{

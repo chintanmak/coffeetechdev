@@ -1,6 +1,9 @@
 import React from 'react';
 import './scss/_home.scss';
 import headerpic from '../Assets/headerpic.jpg'
+import design from '../Assets/design.jpg';
+import software from '../Assets/software.jpg';
+import responsive from '../Assets/responsive.jpg';
 
 export default function Home () {
   return (
@@ -22,8 +25,24 @@ export default function Home () {
         </div>
       </div>
 
-      <div className=''>
+      <div className='ourservices_header flex-column gap2rem'>
+        <h1>Experience the freedom to build features, right away.</h1>
+        <p>As a web development company, we specialize in creating unique and custom websites that are tailored to the needs of our clients. Our team of experienced developers and designers work closely with you to ensure that your website is not only functional, but also aesthetically pleasing and user-friendly.</p>
+      </div>
 
+      <div className='services_container grid'>
+        <div className='service_section flex-column gap2rem'>
+          <img src={design} />
+          <h3>Website design</h3>
+        </div>
+        <div className='service_section flex-column gap2rem'>
+          <img src={software} />
+          <h3>Software development</h3>
+        </div>
+        <div className='service_section flex-column gap2rem'>
+          <img src={responsive} />
+          <h3>Responsive design</h3>
+        </div>
       </div>
 
     </>

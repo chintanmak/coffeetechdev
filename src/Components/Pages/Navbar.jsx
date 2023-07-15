@@ -7,11 +7,11 @@ export default function Navbar() {
     <>
     <div className='navbar_container'>
       <div className='logo_container'>
-      <img src={logo} />
+      <a href=''><img src={logo} /></a>
       </div>
 
       <div className='menu_container'>
-        <a href=''>why Coffee?</a>
+        <a href=''>why CoffeeTech?</a>
         <a href=''>About</a>
         <a href=''>Contact</a>
       </div>
