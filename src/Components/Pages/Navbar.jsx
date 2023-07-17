@@ -12,6 +12,7 @@ export default function Navbar() {
 
       <div className='menu_container'>
         <a href=''>why CoffeeTech?</a>
+        <a href=''>Projects</a>
         <a href=''>About</a>
         <a href=''>Contact</a>
       </div>

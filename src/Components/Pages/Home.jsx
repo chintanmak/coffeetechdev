@@ -4,6 +4,7 @@ import headerpic from '../Assets/headerpic.jpg'
 import design from '../Assets/design.jpg';
 import software from '../Assets/software.jpg';
 import responsive from '../Assets/responsive.jpg';
+import discordbanner from '../Assets/discordbanner.jpeg';
 
 export default function Home () {
   return (
@@ -45,8 +46,19 @@ export default function Home () {
         </div>
       </div>
 
-      <div className='footer_container'>
+      <div className='discordinvite_container flex-row gap2rem'>
+        <div className='discord_title flex-column gap2rem'>
+          <h3>Showcase your app in our Community.</h3>
+          <p>Building something special? We're always looking to work with partners who wants to help the world bring their ideas to life.</p>
+          <div className='flex-row gap2rem'>
+          <button className='btn btn-active'>Become a partners</button>
+          <button className='btn'>Join</button>
+          </div>
+        </div>
 
+        <div className='discordbaner flex-column'>
+          <img src={discordbanner} />
+        </div>
       </div>
 
     </>

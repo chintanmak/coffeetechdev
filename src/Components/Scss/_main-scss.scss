@@ -52,7 +52,15 @@ $secondary_clr: #feffff;
     border: 1px solid;
     font-size: 1rem;
 }
+.btn:hover{
+    background-color: $secondary_clr;
+    color: $primary_clr;
+}
 .btn-active{
     background-color: $secondary_clr;
     color: $primary_clr;
+}
+.btn-active:hover{
+    background-color: $primary_clr;
+    color: $secondary_clr;
 }
