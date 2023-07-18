@@ -5,6 +5,8 @@ import design from '../Assets/design.jpg';
 import software from '../Assets/software.jpg';
 import responsive from '../Assets/responsive.jpg';
 import discordbanner from '../Assets/discordbanner.jpeg';
+import Footer from './Footer';
+
 
 export default function Home () {
   return (
@@ -60,6 +62,8 @@ export default function Home () {
           <img src={discordbanner} />
         </div>
       </div>
+
+      <Footer />
 
     </>
   )
