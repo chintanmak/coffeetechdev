@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Projects from "./Components/Pages/Projects";
 import Navbar from "./Components/Pages/Navbar";
 import Home from "./Components/Pages/Home";
+import Discordinvite from "./Components/Pages/Discordinvite";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Navbar />}>
         <Route index element={<Home />}/>
         <Route path="/projects" element={<Projects />} />
+        <Route path="/discordinvite" element={<Discordinvite />} />
         </Route>
         </Routes>
     </BrowserRouter>
