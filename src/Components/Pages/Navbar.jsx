@@ -2,6 +2,7 @@ import React from 'react';
 import { Outlet, Link } from "react-router-dom";
 import '../Pages/scss/_navbar.scss';
 import logo from '../Assets/newcofee.png';
+import Footer from './Footer';
 
 export default function Navbar() {
   return (
@@ -12,14 +13,15 @@ export default function Navbar() {
       </div>
 
       <div className='menu_container'>
-        <a href=''>why CoffeeTech?</a>
+        <a href='/whycoffee'>why CoffeeTech?</a>
         <a href='/projects'>Projects</a>
-        <a href=''>About</a>
-        <a href=''>Contact</a>
+        <a href='/'>About</a>
+        <a href='/'>Contact</a>
       </div>
     </div>
 
     <Outlet />
+    <Footer />
     </>
   )
 }

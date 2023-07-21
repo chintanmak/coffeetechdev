@@ -6,6 +6,7 @@ import Projects from "./Components/Pages/Projects";
 import Navbar from "./Components/Pages/Navbar";
 import Home from "./Components/Pages/Home";
 import Discordinvite from "./Components/Pages/Discordinvite";
+import Whycoffee from "./Components/Pages/Whycoffee";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
         <Route path="/" element={<Navbar />}>
         <Route index element={<Home />}/>
+        <Route path='/whycoffee' element={<Whycoffee />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/discordinvite" element={<Discordinvite />} />
         </Route>

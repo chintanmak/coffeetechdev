@@ -1,6 +1,5 @@
 import React from 'react';
 import '../Pages/scss/_projects.scss';
-import Footer from './Footer';
 import murakami from '../Assets/murakamiclone.vercel.app.jpeg';
 import teamway from '../Assets/teamway-chintanmak.vercel.app.jpeg';
 import neutrino from '../Assets/neutrino.vercel.app.jpg';
@@ -40,7 +39,6 @@ export default function Projects() {
           </div>
         </div>
 
-        <Footer />
     </>
   )
 }
