@@ -23,19 +23,21 @@
     }
 
     & .projects_section{
-        display: grid;
-        grid-template-columns: auto auto;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
-        gap: 3rem;
+        gap: 2rem;
         padding: 4rem 0;
+        overflow-y: auto;
+
         
         & .project_boxs{
             width: 80%;
             border: 1px solid;
             border-radius: 1rem;
-            padding: 1rem;
+            padding: 0.8rem;
             & a>img{
                 width: 100%;
             }
