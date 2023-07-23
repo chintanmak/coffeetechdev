@@ -7,6 +7,8 @@ import Navbar from "./Components/Pages/Navbar";
 import Home from "./Components/Pages/Home";
 import Discordinvite from "./Components/Pages/Discordinvite";
 import Whycoffee from "./Components/Pages/Whycoffee";
+import About from "./Components/Pages/About";
+import Contact from "./Components/Pages/Contact";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route path='/whycoffee' element={<Whycoffee />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/discordinvite" element={<Discordinvite />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
         </Route>
         </Routes>
     </BrowserRouter>

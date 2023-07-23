@@ -18,7 +18,7 @@ export default function Home () {
           <p>Create amazing tools and integrations for nearly 2 million users or customise coffeetech for your team.</p>
           <div className='headerbtn gap2rem'>
           <button className='btn btn-active'>View the docs</button>
-          <button className='btn'>Join us on Discord</button>  
+          <a href='/discordinvite'><button className='btn'>Join us on Discord</button></a>
           </div>
         </div>
 
@@ -53,7 +53,7 @@ export default function Home () {
           <p>Building something special? We're always looking to work with partners who wants to help the world bring their ideas to life.</p>
           <div className='discordbtns gap2rem'>
           <button className='btn btn-active'>Become a partners</button>
-          <button className='btn'>Join</button>
+          <a href='/discordinvite'><button className='btn'>Join</button></a>
           </div>
         </div>
 

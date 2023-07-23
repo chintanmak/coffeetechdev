@@ -13,9 +13,9 @@ export default function Footer() {
           <div className='footer_list'>
             <p>Platform</p>
             <a href=''></a>
-            <a href='' > Why CoffeeTech</a>
-            <a href='' > Pricing</a>
-            <a href='' > Explore</a>
+            <a href='/whycoffee'> Why CoffeeTech</a>
+            <a href=''> Pricing</a>
+            <a href=''> Explore</a>
           </div>
 
           <div className='footer_list'>
@@ -31,16 +31,16 @@ export default function Footer() {
             <p>Community</p>
             <a href=''></a>
             <a href='' > Blog</a>
-            <a href='' > About Us</a>
-            <a href='' > Contact us</a>
+            <a href='/about'> About Us</a>
+            <a href='contact'> Contact us</a>
           </div>
 
           <div className='footer_list'>
             <p>Follow</p>
             <a href=''></a>
-            <a href='' > Twitter</a>
-            <a href='' > Instagram</a>
-            <a href='' > Discord</a>
+            <a href='https://twitter.com/CoffeeTechDev'> Twitter</a>
+            <a href='https://www.instagram.com/coffeetechdev/'> Instagram</a>
+            <a href='https://discord.gg/WCbscHNU'> Discord</a>
           </div>
         </div>
     </>
