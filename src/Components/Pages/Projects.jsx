@@ -5,12 +5,15 @@ import teamway from '../Assets/teamway-chintanmak.vercel.app.jpeg';
 import neutrino from '../Assets/neutrino.vercel.app.jpg';
 import bsns from '../Assets/bsnsss.jpg';
 import konsultant from '../Assets/konsultantss.jpg';
+import projectsbg from '../Assets/projectsbg.jpg';
+import chintanmak from '../Assets/chintanmak.vercel.app.jpg';
 
 export default function Projects() {
   return (
     <>
         <div className='project_container'>
           <div className='project_header'>
+          <img src ={projectsbg} />
             <h1>Projects</h1>
           </div>
 
@@ -35,6 +38,9 @@ export default function Projects() {
               <a href=''> <img src={konsultant} /></a>
             </div>
 
+            <div className='project_boxs'>
+              <a href=''> <img src={chintanmak} /></a>
+            </div>
           
           </div>
         </div>
