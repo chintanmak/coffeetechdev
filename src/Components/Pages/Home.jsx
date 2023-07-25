@@ -13,9 +13,9 @@ export default function Home () {
       <div className='header_container'>
         <div className='header_titles gap2rem'>
           <h1>
-            Let's build the future of design together
+            Develop the Digital Universe
           </h1>
-          <p>Create amazing tools and integrations for nearly 2 million users or customise coffeetech for your team.</p>
+          <p>Let's build the future of design together.</p>
           <div className='headerbtn gap2rem'>
           <button className='btn btn-active'>View the docs</button>
           <a href='/discordinvite'><button className='btn'>Join us on Discord</button></a>

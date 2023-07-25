@@ -1,13 +1,13 @@
 import React from 'react';
 import '../Pages/scss/_about.scss';
-import businesspeople from '../Assets/businesspeople.jpg';
+import projectsbg from '../Assets/projectsbg.jpg';
 
 export default function About() {
   return (
     <>
     <div className='about_container'>
         <div className='about_header'>
-            <img src={businesspeople} />
+            <img src={projectsbg} />
             <h1>About us</h1>
         </div>
 
