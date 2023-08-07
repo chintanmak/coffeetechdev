@@ -1,26 +1,35 @@
 @import '../../Scss/main-scss';
 
+
+@media screen and (min-width: 320px) and (max-width: 768px) {   
 .joindiscord_container{
     display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-width: 100%;
-& .joindiscord_header{
-    margin-top: 2rem;
-    width: 100%;
-    height: 30vh;
-    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    text-align: center;
-    background-color: rgb(1, 0, 34);
-    & h1{
-        background-color: transparent;
-        color: $secondary_clr;
-        width: 50%;
-        font-size: 4rem;
+    width: 100%;
+    & .joindiscord_header{
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        & img{
+            width: 100%;
+            height: 20vh;
+        }
+        & h1{
+            position: absolute;
+            background-color: transparent;
+            color: $primary_clr;
+            width: 100%;
+            height: 20vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 2rem;
+        }
     }
-}
 
 & .invitebtn{
     display: flex;
@@ -31,9 +40,60 @@ width: 100%;
     height: 50vh;
 
     & button{
-        width: 40rem;
-        height: 5rem;
-        font-size: 3rem;
+        // width: 40rem;
+        height: fit-content;
+        padding: 1rem;
+        font-size: 2rem;
     }
 }
+}
+}
+
+
+
+@media screen and (min-width: 769px){
+    .joindiscord_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        & .joindiscord_header{
+            margin-top: 2rem;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            & img{
+                width: 100%;
+                height: 40vh;
+            }
+            & h1{
+                position: absolute;
+                background-color: transparent;
+                color: $primary_clr;
+                width: 100%;
+                height: 40vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-size: 4.5rem;
+            }
+        }
+    
+    & .invitebtn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 50vh;
+    
+        & button{
+            width: 40rem;
+            height: 5rem;
+            font-size: 3rem;
+        }
+    }
+    }
 }

@@ -9,6 +9,7 @@ import Discordinvite from "./Components/Pages/Discordinvite";
 import Whycoffee from "./Components/Pages/Whycoffee";
 import About from "./Components/Pages/About";
 import Contact from "./Components/Pages/Contact";
+import Explore from "./Components/Pages/Explore";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/discordinvite" element={<Discordinvite />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/explore" element={<Explore />} />
         </Route>
         </Routes>
     </BrowserRouter>

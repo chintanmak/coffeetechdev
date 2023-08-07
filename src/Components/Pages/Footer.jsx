@@ -15,7 +15,7 @@ export default function Footer() {
             <a href=''></a>
             <a href='/whycoffee'> Why CoffeeTech</a>
             <a href=''> Pricing</a>
-            <a href=''> Explore</a>
+            <a href='/explore'> Explore</a>
           </div>
 
           <div className='footer_list'>
