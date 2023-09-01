@@ -19,27 +19,27 @@ export default function Projects() {
 
           <div className='projects_section'>
             <div className='project_boxs'>
-              <a href=''> <img src={murakami} /></a>
+              <a href='https://murakami-clone.vercel.app/'> <img src={murakami} /></a>
             </div>
 
             <div className='project_boxs'>
-              <a href=''> <img src={teamway} /></a>
+              <a href='https://teamway-nine.vercel.app/'> <img src={teamway} /></a>
             </div>
 
             <div className='project_boxs'>
-              <a href=''> <img src={neutrino} /></a>
+              <a href='https://neutrino.vercel.app/'> <img src={neutrino} /></a>
             </div>
 
             <div className='project_boxs'>
-              <a href=''> <img src={bsns} /></a>
+              <a href='https://bsns-web.vercel.app/'> <img src={bsns} /></a>
             </div>
 
             <div className='project_boxs'>
-              <a href=''> <img src={konsultant} /></a>
+              <a href='https://konsultant.vercel.app/'> <img src={konsultant} /></a>
             </div>
 
             <div className='project_boxs'>
-              <a href=''> <img src={chintanmak} /></a>
+              <a href='https://chintanmak.vercel.app/'> <img src={chintanmak} /></a>
             </div>
           
           </div>

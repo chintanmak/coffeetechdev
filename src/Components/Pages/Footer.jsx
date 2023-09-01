@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Pages/scss/_footer.scss';
-import logo from '../Assets/newcofee.png'
+import logo from '../Assets/coffeetechlogo.png'
 
 export default function Footer() {
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Outlet, Link } from "react-router-dom";
 import '../Pages/scss/_navbar.scss';
-import logo from '../Assets/newcofee.png';
+import logo from '../Assets/coffeetechlogo.png';
 import Footer from './Footer';
 
 export default function Navbar() {
